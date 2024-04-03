@@ -25,11 +25,11 @@ public class LogicaVolumen : MonoBehaviour
     {
         if (sliderValue > 0) 
         {
-            imageMute.enabled = true;
+            imageMute.enabled = false;
         }
         else
         {
-            imageMute.enabled = false;
+            imageMute.enabled = true;
         }
     }    
 }
